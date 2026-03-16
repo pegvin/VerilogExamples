@@ -1,14 +1,14 @@
-`include "half_adder.v"
+`include "half_adder_df.v"
 
-module half_adder_tb;
+module half_adder_df_tb;
 	reg a, b;
 	wire sum, carry;
 
-	half_adder adder(a, b, sum, carry);
+	half_adder_df adder(a, b, sum, carry);
 
 	initial begin
-		$dumpfile("half_adder.vcd");
-		$dumpvars(0, half_adder_tb);
+		$dumpfile("half_adder_df.vcd");
+		$dumpvars(0, half_adder_df_tb);
 		$monitor("T = %0t, A = %d, B = %d, Sum = %d, Carry = %d", $time, a, b, sum, carry);
 
 		#0 a = 0; b = 0;

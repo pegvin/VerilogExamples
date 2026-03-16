@@ -10,7 +10,7 @@ module full_adder_tb;
 		$dumpfile("full_adder.vcd");
 		$dumpvars(0, full_adder_tb);
 		$monitor("T = %0t, A = %d, B = %d, C = %d, Sum: %d, Carry: %d", $time, a, b, c_in, sum, carry);
-		#1 a = 0; b = 0; c_in = 0;
+		#0 a = 0; b = 0; c_in = 0;
 		#1 a = 0; b = 0; c_in = 1;
 		#1 a = 0; b = 1; c_in = 0;
 		#1 a = 0; b = 1; c_in = 1;

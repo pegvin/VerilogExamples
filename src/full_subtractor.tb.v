@@ -10,7 +10,7 @@ module full_subtractor_tb;
 		$dumpfile("full_subtractor.vcd");
 		$dumpvars(0, full_subtractor_tb);
 		$monitor("T = %0t, A = %d, B = %d, C = %d, dif: %d, brw: %d", $time, a, b, b_in, dif, brw);
-		#1 a = 0; b = 0; b_in = 0;
+		#0 a = 0; b = 0; b_in = 0;
 		#1 a = 0; b = 0; b_in = 1;
 		#1 a = 0; b = 1; b_in = 0;
 		#1 a = 0; b = 1; b_in = 1;
