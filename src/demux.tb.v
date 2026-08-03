@@ -19,5 +19,6 @@ module demux_tb;
 		#1 s1 = 0; s0 = 1; i = 1;
 		#1 s1 = 1; s0 = 0; i = 1;
 		#1 s1 = 1; s0 = 1; i = 1;
+		#1;
 	end
 endmodule

@@ -18,5 +18,6 @@ module line_decoder_tb;
 		#1 a = 1; b = 0; c = 1;
 		#1 a = 1; b = 1; c = 0;
 		#1 a = 1; b = 1; c = 1;
+		#1;
 	end
 endmodule

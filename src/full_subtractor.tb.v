@@ -18,6 +18,6 @@ module full_subtractor_tb;
 		#1 a = 1; b = 0; b_in = 1;
 		#1 a = 1; b = 1; b_in = 0;
 		#1 a = 1; b = 1; b_in = 1;
+		#1;
 	end
 endmodule
-

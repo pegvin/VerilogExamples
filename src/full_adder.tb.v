@@ -18,6 +18,6 @@ module full_adder_tb;
 		#1 a = 1; b = 0; c_in = 1;
 		#1 a = 1; b = 1; c_in = 0;
 		#1 a = 1; b = 1; c_in = 1;
+		#1;
 	end
 endmodule
-

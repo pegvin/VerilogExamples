@@ -14,6 +14,6 @@ module half_subtractor_tb;
 		#1 a = 0; b = 1;
 		#1 a = 1; b = 0;
 		#1 a = 1; b = 1;
+		#1;
 	end
 endmodule
-

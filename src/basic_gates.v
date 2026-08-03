@@ -21,3 +21,7 @@ module nor_gate(input a, input b, output c);
 	or(a1, a, b);
 	not(c, a1);
 endmodule
+
+module xor_gate(input a, input b, output c);
+	xor(c, a, b);
+endmodule

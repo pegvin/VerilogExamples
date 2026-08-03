@@ -20,6 +20,9 @@ $(WAVE_TARGETS):
 	@$(MAKE) "$(@:wave_%=run_%)"
 	@gtkwave "$(BUILD)/$(patsubst %.tb.v,%.vcd,$(@:wave_%=%))"
 
+wave:
+	@$(MAKE) $(WAVE_TARGETS)
+
 all: $(SOURCES)
 	@echo "Done!"
 

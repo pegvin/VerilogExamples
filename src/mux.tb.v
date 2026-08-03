@@ -21,5 +21,6 @@ module mux_tb;
 		#1 i0 = 0; i1 = 1; s0 = 1;
 		#1 i0 = 1; i1 = 0; s0 = 1;
 		#1 i0 = 1; i1 = 1; s0 = 1;
+		#1;
 	end
 endmodule
